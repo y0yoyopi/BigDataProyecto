@@ -6,6 +6,16 @@ Proyecto de analisis forense de transacciones Bitcoin utilizando el dataset Elli
 
 Este proyecto implementa un sistema completo de analisis forense para la deteccion de actividades ilicitas en la red Bitcoin. Utilizando el dataset Elliptic, que contiene transacciones reales clasificadas, se desarrolla un dashboard interactivo y un sistema de analisis exploratorio basado en teoria de grafos y analisis de redes.
 
+## Integrantes del Equipo
+
+Un equipo diverso y apasionado de estudiantes está detrás de este proyecto:
+
+|    Anthony Roca    |    Leandro Machaca    |    Francisco Calle     | Aaron Rojas |
+| ----------- | ----------- | ----------- | ----------- |
+| ![](https://avatars.githubusercontent.com/u/78512236?v=4) | ![](https://avatars.githubusercontent.com/u/102132128?s=400&v=4) | ![](https://avatars.githubusercontent.com/u/90939274?v=4) | ![](https://avatars.githubusercontent.com/u/165915247?v=4) |
+| [](https://github.com/Tony1411) | [](https://github.com/JLeandroJM) | [](https://github.com/Enzoc30) |  [](https://github.com/Jerimy2021) |
+
+
 ### Objetivos
 
 - Analizar patrones de transacciones ilicitas en la blockchain de Bitcoin
@@ -52,33 +62,6 @@ Este proyecto implementa un sistema completo de analisis forense para la detecci
 - NumPy (computacion numerica)
 - Jupyter Notebooks (analisis exploratorio)
 
-### Estructura del Proyecto
-
-```
-PROYECTO/
-├── data/
-│   ├── raw/                      # Datos crudos del dataset Elliptic
-│   │   ├── elliptic_txs_classes.csv
-│   │   ├── elliptic_txs_edgelist.csv
-│   │   └── elliptic_txs_features.csv
-│   └── processed/                # Datos procesados para Neo4j
-│       ├── nodes.csv
-│       └── rels.csv
-├── etl/
-│   └── prepare_elliptic.py      # Script de procesamiento ETL
-├── db/
-│   ├── app.py                   # Dashboard original
-│   ├── app2.py                  # Dashboard mejorado (principal)
-│   ├── explore.ipynb            # Notebook de analisis exploratorio
-│   ├── neo4j_utils.py           # Utilidades de conexion
-│   └── README_DASHBOARD.md      # Documentacion del dashboard
-├── neo4j/
-│   ├── import/                  # Archivos CSV para importacion
-│   ├── data/                    # Datos de la base de datos
-│   └── plugins/                 # Plugins de Neo4j
-├── requirements.txt             # Dependencias de Python
-└── docker-compose.yml           # Configuracion de Docker
-```
 
 ## Instalacion y Configuracion
 
@@ -332,19 +315,6 @@ Este proyecto es de codigo abierto y esta disponible bajo la Licencia MIT.
 - Neo4j Documentation: [https://neo4j.com/docs/](https://neo4j.com/docs/)
 - Streamlit Documentation: [https://docs.streamlit.io/](https://docs.streamlit.io/)
 
-## Contacto
-
-Para preguntas, sugerencias o colaboraciones:
-
-- GitHub: [@y0yoyopi](https://github.com/y0yoyopi)
-- Repositorio: [BigDataProyecto](https://github.com/y0yoyopi/BigDataProyecto)
-
-## Agradecimientos
-
-- Elliptic por proporcionar el dataset
-- Neo4j por la plataforma AuraDB
-- Comunidad de Streamlit por las herramientas de visualizacion
-- Contribuidores de NetworkX y otras librerias open source
 
 ---
 
