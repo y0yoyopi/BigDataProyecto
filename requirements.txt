@@ -1,6 +1,21 @@
-streamlit
-neo4j
-pandas
-networkx
-matplotlib
-plotly
+# Core data
+pandas>=2.2,<3
+numpy>=1.26,<3
+pyarrow>=17,<18
+
+# Neo4j
+neo4j>=5.28   # driver 5.x estable
+python-dotenv>=1.0
+
+# Streamlit + viz
+streamlit>=1.Thirty9    # 1.39+ va bien con Altair 5 y Py3.10+
+altair>=5.3
+plotly>=5.24
+matplotlib>=3.9
+networkx>=3.3
+
+# Jupyter/compat (algunos backends lo piden)
+nbformat>=5.10
+
+# Opcional (si realmente lo usas)
+# seaborn>=0.13

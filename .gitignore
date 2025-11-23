@@ -1,0 +1,33 @@
+# macOS / editores
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.cache/
+.coverage
+dist/
+build/
+
+# Entornos / secretos
+.env
+.env.*
+
+# Datos locales pesados
+data/raw/
+data/processed/*.parquet
+neo4j/data/
+neo4j/import/*.csv
+artifacts/
+logs/
+
+# Node/Front (por si usas Streamlit + algo de npm)
+node_modules/
